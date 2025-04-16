@@ -1,11 +1,11 @@
 param (
     [Parameter(Mandatory=$true)]
     [string]$IssueNumber,
-    
+
     [Parameter(Mandatory=$true)]
     [ValidateSet("feature", "bugfix", "refactor", "docs", "test", "chore")]
     [string]$Type,
-    
+
     [Parameter(Mandatory=$true)]
     [string]$Description
 )
