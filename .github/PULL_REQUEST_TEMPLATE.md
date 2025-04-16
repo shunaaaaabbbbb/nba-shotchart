@@ -1,4 +1,3 @@
-@"
 ## 関連Issue
 <!-- 関連するIssueへのリンクを追加してください (#issue-number) -->
 fixes #

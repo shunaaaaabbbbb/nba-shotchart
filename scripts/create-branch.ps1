@@ -10,10 +10,10 @@ param (
     [string]$Description
 )
 
-# 現在のブランチがmainであることを確誁E
+# 現在のブランチがmainであることを確認
 $currentBranch = git rev-parse --abbrev-ref HEAD
 if ($currentBranch -ne "main") {
-    Write-Error "現在のブランチがmainではありません。mainブランチに切り替えてください、E
+    Write-Error "現在のブランチがmainではありません。mainブランチに切り替えてください。"
     exit 1
 }
 
